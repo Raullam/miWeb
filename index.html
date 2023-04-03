@@ -39,6 +39,8 @@
     <!-- Custom CSS-->
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
   </head>
   <body class="dark-vertion black-bg">
     <div id="App">
@@ -1150,5 +1152,10 @@
         },
       })
     </script>
+<script>
+  document.querySelector('.navbar-toggler').addEventListener('click', function() {
+    document.querySelector('#navbarSupportedContent').classList.toggle('show');
+  });
+</script>
   </body>
 </html>
